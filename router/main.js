@@ -16,19 +16,19 @@ module.exports = function(app) {
     app.get('/blog',function(req,res){
       res.render('blog.html');
     });
-   app.get('/blog-details.html',function(req,res){
+   app.get('/blog-details',function(req,res){
     res.render('blog-details.html');
    });
 
-   app.get('/contact.html',function(req,res){
+   app.get('/contact',function(req,res){
       res.render('contact.html');
      });
 
-     app.get('/index-2.html',function(req,res){
+     app.get('/index-2',function(req,res){
       res.render('index-2.html');
      });
 
-     app.get('/updates.html',function(req,res){
+     app.get('/updates',function(req,res){
       res.render('updates.html');
      });
   
